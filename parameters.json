@@ -1,0 +1,121 @@
+{
+    "elliptical_fins": {},
+    "environment": {
+        "base_pressure": null,
+        "base_temperature": null,
+        "date": null,
+        "elevation": 0.0,
+        "geodetic_method": "spherical",
+        "latitude": 28.61,
+        "longitude": -80.6,
+        "wind_average": 10.0,
+        "wind_turbulence": 0.11100000000000002
+    },
+    "flight": {
+        "heading": 80.0,
+        "inclination": 80.0,
+        "rail_length": 4.0
+    },
+    "id": {
+        "comment": null,
+        "designer": null,
+        "filepath": "/home/kanamori/OpenRocket/orks/rocket.ork",
+        "rocket_name": "Quark ll"
+    },
+    "motors": {
+        "center_of_dry_mass_position": 0,
+        "coordinate_system_orientation": "nozzle_to_combustion_chamber",
+        "dry_inertia": [
+            0,
+            0,
+            0
+        ],
+        "dry_mass": 0,
+        "grain_density": 1540.3122379453089,
+        "grain_initial_height": 0.209,
+        "grain_initial_inner_radius": 0.01125,
+        "grain_number": 1,
+        "grain_outer_radius": 0.0225,
+        "grain_separation": 0,
+        "grains_center_of_mass_position": 0,
+        "nozzle_position": -0.1045,
+        "nozzle_radius": 0.016875,
+        "position": 0.8380129870129875,
+        "throat_radius": 0.01125,
+        "thrust_source": "/home/kanamori/OpenRocket/orks/thrust_source.csv"
+    },
+    "nosecones": {
+        "base_radius": 0.039,
+        "kind": "ellipsoid",
+        "length": 0.12000000000000005,
+        "name": "Ogiva",
+        "position": 0.0
+    },
+    "parachutes": {
+        "0": {
+            "area": 0.38484510006474976,
+            "cd": 2.02,
+            "cds": 0.7773871021307945,
+            "deploy_altitude": null,
+            "deploy_delay": 1.0,
+            "deploy_event": "apogee",
+            "name": "Paraquedas"
+        }
+    },
+    "rail_buttons": {
+        "angular_position": 45.0,
+        "distance": 0.7509999999999999,
+        "lower_position": 1.051,
+        "name": "Guia de lançamento",
+        "upper_position": 0.3
+    },
+    "rocket": {
+        "center_of_mass_without_propellant": 0.585,
+        "coordinate_system_orientation": "nose_to_tail",
+        "drag_curve": "/home/kanamori/OpenRocket/orks/drag_curve.csv",
+        "inertia": [
+            0.005,
+            0.005,
+            0.196
+        ],
+        "mass": 2.862,
+        "radius": 0.03900000000000001
+    },
+    "stored_results": {
+        "burnout_stability_margin": 1.856,
+        "flight_time": 93.292,
+        "ground_hit_velocity": 7.696,
+        "launch_rod_velocity": 33.677,
+        "max_acceleration": 133.198,
+        "max_altitude": 631.109,
+        "max_mach": 0.402,
+        "max_stability_margin": 2.533,
+        "max_thrust": 458.421,
+        "max_velocity": 132.145,
+        "min_stability_margin": 1.487,
+        "time_to_apogee": 11.193
+    },
+    "tails": {
+        "0": {
+            "bottom_radius": 0.0275,
+            "length": 0.05800000000000002,
+            "name": "Boattail",
+            "position": 0.952,
+            "top_radius": 0.03900000000000001
+        }
+    },
+    "trapezoidal_fins": {
+        "0": {
+            "cant_angle": 0.0,
+            "name": "Conjunto de aletas trapezoidais",
+            "number": 4,
+            "position": 1.1829999999999998,
+            "root_chord": 0.11,
+            "section": "airfoil",
+            "span": 0.12,
+            "sweep_angle": null,
+            "sweep_length": 0.015010600939339855,
+            "tip_chord": 0.08
+        }
+    }
+}
