@@ -12,15 +12,15 @@
         "wind_turbulence": 0.11100000000000002
     },
     "flight": {
-        "heading": 80.0,
+        "heading": 90.0,
         "inclination": 80.0,
         "rail_length": 4.0
     },
     "id": {
         "comment": null,
-        "designer": null,
-        "filepath": "/home/kanamori/OpenRocket/orks/rocket.ork",
-        "rocket_name": "Quark ll"
+        "designer": "Carlos Eduardo Fracari do Nascimento",
+        "filepath": "rocket.ork",
+        "rocket_name": "Quark II"
     },
     "motors": {
         "center_of_dry_mass_position": 0,
@@ -31,18 +31,18 @@
             0
         ],
         "dry_mass": 0,
-        "grain_density": 1540.3122379453089,
-        "grain_initial_height": 0.209,
+        "grain_density": 1602.7222543265182,
+        "grain_initial_height": 0.21080000000000002,
         "grain_initial_inner_radius": 0.01125,
         "grain_number": 1,
         "grain_outer_radius": 0.0225,
         "grain_separation": 0,
         "grains_center_of_mass_position": 0,
-        "nozzle_position": -0.1045,
+        "nozzle_position": -0.10540000000000001,
         "nozzle_radius": 0.016875,
-        "position": 0.8380129870129875,
+        "position": 0.8366153846153851,
         "throat_radius": 0.01125,
-        "thrust_source": "/home/kanamori/OpenRocket/orks/thrust_source.csv"
+        "thrust_source": "./thrust_source.csv"
     },
     "nosecones": {
         "base_radius": 0.039,
@@ -62,46 +62,40 @@
             "name": "Paraquedas"
         }
     },
-    "rail_buttons": {
-        "angular_position": 45.0,
-        "distance": 0.7509999999999999,
-        "lower_position": 1.051,
-        "name": "Guia de lançamento",
-        "upper_position": 0.3
-    },
+    "rail_buttons": {},
     "rocket": {
-        "center_of_mass_without_propellant": 0.585,
+        "center_of_mass_without_propellant": 0.586,
         "coordinate_system_orientation": "nose_to_tail",
-        "drag_curve": "/home/kanamori/OpenRocket/orks/drag_curve.csv",
+        "drag_curve": "./drag_curve.csv",
         "inertia": [
-            0.005,
-            0.005,
-            0.196
+            0.006,
+            0.006,
+            0.221
         ],
-        "mass": 2.862,
-        "radius": 0.03900000000000001
+        "mass": 2.855,
+        "radius": 0.039
     },
     "stored_results": {
-        "burnout_stability_margin": 1.856,
-        "flight_time": 93.292,
-        "ground_hit_velocity": 7.696,
-        "launch_rod_velocity": 33.677,
-        "max_acceleration": 133.198,
-        "max_altitude": 631.109,
-        "max_mach": 0.402,
-        "max_stability_margin": 2.533,
-        "max_thrust": 458.421,
-        "max_velocity": 132.145,
-        "min_stability_margin": 1.487,
-        "time_to_apogee": 11.193
+        "burnout_stability_margin": 1.681,
+        "flight_time": 95.339,
+        "ground_hit_velocity": 7.652,
+        "launch_rod_velocity": 34.117,
+        "max_acceleration": 138.755,
+        "max_altitude": 645.819,
+        "max_mach": 0.404,
+        "max_stability_margin": 2.592,
+        "max_thrust": 478.213,
+        "max_velocity": 133.379,
+        "min_stability_margin": 1.421,
+        "time_to_apogee": 11.286
     },
     "tails": {
         "0": {
             "bottom_radius": 0.0275,
             "length": 0.05800000000000002,
             "name": "Boattail",
-            "position": 0.952,
-            "top_radius": 0.03900000000000001
+            "position": 0.9580000000000001,
+            "top_radius": 0.039
         }
     },
     "trapezoidal_fins": {
@@ -109,12 +103,12 @@
             "cant_angle": 0.0,
             "name": "Conjunto de aletas trapezoidais",
             "number": 4,
-            "position": 1.1829999999999998,
+            "position": 1.1920000000000002,
             "root_chord": 0.11,
             "section": "airfoil",
             "span": 0.12,
             "sweep_angle": null,
-            "sweep_length": 0.015010600939339855,
+            "sweep_length": 0.014946790123942073,
             "tip_chord": 0.08
         }
     }
