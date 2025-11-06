@@ -8,19 +8,19 @@
         "geodetic_method": "spherical",
         "latitude": 28.61,
         "longitude": -80.6,
-        "wind_average": 10.0,
-        "wind_turbulence": 0.11100000000000002
+        "wind_average": 4.0,
+        "wind_turbulence": 0.1
     },
     "flight": {
         "heading": 90.0,
-        "inclination": 80.0,
+        "inclination": 90.0,
         "rail_length": 4.0
     },
     "id": {
         "comment": null,
         "designer": "Carlos Eduardo Fracari do Nascimento",
         "filepath": "rocket.ork",
-        "rocket_name": "Quark II"
+        "rocket_name": "gctfytv"
     },
     "motors": {
         "center_of_dry_mass_position": 0,
@@ -31,16 +31,16 @@
             0
         ],
         "dry_mass": 0,
-        "grain_density": 1602.7222543265182,
-        "grain_initial_height": 0.21080000000000002,
+        "grain_density": 1379.8630464926725,
+        "grain_initial_height": 0.209,
         "grain_initial_inner_radius": 0.01125,
         "grain_number": 1,
         "grain_outer_radius": 0.0225,
         "grain_separation": 0,
         "grains_center_of_mass_position": 0,
-        "nozzle_position": -0.10540000000000001,
+        "nozzle_position": -0.1045,
         "nozzle_radius": 0.016875,
-        "position": 0.8366153846153851,
+        "position": 0.8378546511627906,
         "throat_radius": 0.01125,
         "thrust_source": "./thrust_source.csv"
     },
@@ -53,41 +53,47 @@
     },
     "parachutes": {
         "0": {
-            "area": 0.38484510006474976,
-            "cd": 2.02,
-            "cds": 0.7773871021307945,
+            "area": 1.1309733552923256,
+            "cd": 1.5,
+            "cds": 1.6964600329384885,
             "deploy_altitude": null,
             "deploy_delay": 1.0,
             "deploy_event": "apogee",
             "name": "Paraquedas"
         }
     },
-    "rail_buttons": {},
+    "rail_buttons": {
+        "angular_position": 45.0,
+        "distance": 0.2600000000000001,
+        "lower_position": 1.0010000000000001,
+        "name": "Guia de lançamento",
+        "upper_position": 0.741
+    },
     "rocket": {
-        "center_of_mass_without_propellant": 0.586,
+        "center_of_mass_without_propellant": 0.588,
         "coordinate_system_orientation": "nose_to_tail",
         "drag_curve": "./drag_curve.csv",
         "inertia": [
             0.006,
             0.006,
-            0.221
+            0.249
         ],
-        "mass": 2.855,
+        "mass": 3.094,
         "radius": 0.039
     },
     "stored_results": {
-        "burnout_stability_margin": 1.681,
-        "flight_time": 95.339,
-        "ground_hit_velocity": 7.652,
-        "launch_rod_velocity": 34.117,
-        "max_acceleration": 138.755,
-        "max_altitude": 645.819,
-        "max_mach": 0.404,
-        "max_stability_margin": 2.592,
-        "max_thrust": 478.213,
-        "max_velocity": 133.379,
-        "min_stability_margin": 1.421,
-        "time_to_apogee": 11.286
+        "burnout_stability_margin": 2.108,
+        "flight_time": 109.081,
+        "ground_hit_velocity": 5.395,
+        "launch_rod_velocity": 24.497,
+        "max_acceleration": 135.683,
+        "max_altitude": 534.08,
+        "max_mach": 0.304,
+        "max_stability_margin": 2.554,
+        "max_thrust": 475.626,
+        "max_velocity": 102.979,
+        "min_stability_margin": 1.426,
+        "time_to_apogee": 11.25
     },
     "tails": {
         "0": {
@@ -103,7 +109,7 @@
             "cant_angle": 0.0,
             "name": "Conjunto de aletas trapezoidais",
             "number": 4,
-            "position": 1.1920000000000002,
+            "position": 1.196,
             "root_chord": 0.11,
             "section": "airfoil",
             "span": 0.12,
