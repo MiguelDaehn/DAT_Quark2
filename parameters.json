@@ -8,19 +8,19 @@
         "geodetic_method": "spherical",
         "latitude": 28.61,
         "longitude": -80.6,
-        "wind_average": 4.0,
-        "wind_turbulence": 0.1
+        "wind_average": 6.0,
+        "wind_turbulence": 0.11
     },
     "flight": {
-        "heading": 90.0,
-        "inclination": 90.0,
+        "heading": 80.0,
+        "inclination": 80.0,
         "rail_length": 4.0
     },
     "id": {
         "comment": null,
         "designer": "Carlos Eduardo Fracari do Nascimento",
         "filepath": "rocket.ork",
-        "rocket_name": "gctfytv"
+        "rocket_name": "gfgvh"
     },
     "motors": {
         "center_of_dry_mass_position": 0,
@@ -82,18 +82,18 @@
         "radius": 0.039
     },
     "stored_results": {
-        "burnout_stability_margin": 2.108,
-        "flight_time": 109.081,
-        "ground_hit_velocity": 5.395,
-        "launch_rod_velocity": 24.497,
-        "max_acceleration": 135.683,
-        "max_altitude": 534.08,
-        "max_mach": 0.304,
-        "max_stability_margin": 2.554,
-        "max_thrust": 475.626,
-        "max_velocity": 102.979,
-        "min_stability_margin": 1.426,
-        "time_to_apogee": 11.25
+        "burnout_stability_margin": 2.471,
+        "flight_time": 98.608,
+        "ground_hit_velocity": 5.38,
+        "launch_rod_velocity": 24.551,
+        "max_acceleration": 136.744,
+        "max_altitude": 477.34,
+        "max_mach": 0.309,
+        "max_stability_margin": 2.553,
+        "max_thrust": 475.671,
+        "max_velocity": 102.64,
+        "min_stability_margin": 1.611,
+        "time_to_apogee": 10.632
     },
     "tails": {
         "0": {
